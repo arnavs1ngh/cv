@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{resume} % Use the custom resume.cls style
+\newcommand*\maintitle[2]{\noindent{\LARGE \textbf{#1}}\ \ \ \emph{#2}\vspace{0.3em}} % Main title (name) with date of birth or subtitle
+
+\newcommand*\bull{\ \ \raisebox{-0.365em}[-1em][-1em]{\textscale{4}{$\cdot$}} \ } % Custom bullet point for separating content
+
+% \usepackage[left=0.7in,top=0.4in,right=0.7in,bottom=0.5in]{geometry} % Document margins
+
+% \usepackage[margin=0.75in]{geometry} % Adjusts the margins
+
+\usepackage{multicol} % Required for multiple columns of text
+
+\usepackage{mdwlist} % Required to fine tune lists with a inline headings and indented content
+
+\usepackage{relsize} % Required for the \textscale command for custom small caps text
+
+\usepackage{hyperref} % Required for customizing links
+\usepackage{xcolor} % Required for specifying custom colors
+\definecolor{dark-blue}{rgb}{0.15,0.15,0.4} % Defines the dark blue color used for links
+\hypersetup{colorlinks,linkcolor={dark-blue},citecolor={dark-blue},urlcolor={dark-blue}} % Assigns the dark blue color to all links in the template
+
+\usepackage{tgpagella} % Use the TeX Gyre Pagella font throughout the document
+\usepackage[T1]{fontenc}
+\usepackage{microtype} % Slightly tweaks character and word spacings for better typography
+
+
+%----------------------------------------------------------------------------------------
+%   DOCUMENT START
+%----------------------------------------------------------------------------------------
+% \name{First Last} % Your name
+% \address{(123)~$\cdot$~456~$\cdot$~7890 \\ first.last@gmail.com \\ github.com/firstlast \\ ca.linkedin.com/in/firstlast} % Your phone number and email
+\begin{document}
+% \title{Anon Resume}
+\maintitle{Arnav Singh}{}  % Your name and date of birth or subtitle}
+
+\noindent\href{mailto:arnavs2ngh@gmail.com}{arnavs2ngh@gmail.com}\bull % Your email address
+\href{www.linkedin.com/in/arnavs1ngh/}{www.linkedin.com/in/arnavs1ngh/}\bull
+\textsmaller{+}44 7490182324
+%smith01 \textit{(Skype)}\bull % Your phone number(s) and Skype username
+ % Your URL
+ \bull London, UK % Your address
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\begin{rSubsection}{Imperial College London}{2020 - 2024}{Master of Science, Mathematics (First Class Honours)}{London, UK}
+\item Focus in Machine Learning, AI, Statistics, and Finance
+% \item Master's Thesis: Curse of Dimensionality in Neural Networks: Leveraging Deep Learning to create more efficient network architectures, extensive use of Python, tensorflow and pytorch libraries to run experiments on HPC clusters to verify theoretical results.\\ Recognised for Excellence in Applied Maths Research
+\item Relevant courses: Mathematical Foundations of ML, Optimisation, Statistical Learning, Methods for Data Science,\\ SDEs in Financial Modelling, Intro to Option Pricing, Game Theory, Dynamics of Learning and Iterated Games
+\item Active Member of Algorithmic Trading Society, Investment Society
+\item Individual Research Project (97\%)
+%\vspace{-.1cm}
+\vspace{-.65cm}
+\item[]
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience \& Projects}
+
+\begin{rSubsection}{Curse of Dimensionality in Neural Networks}{2023-2024}{Research}{London, UK}
+\item Extended work of Poggio et al. to derive new bounds for neural network complexities in discrete function spaces, previously established only for continuous functions, enabling applications and analysis in real-world scenarios such as financial time-series data.
+\item Executed large-scale experiments on High-Performance Computing clusters, running over 1,500 computational hours, to validate novel self-derived theoretical results, extensively utilising Python, TensorFlow and PyTorch.
+\item Formulated innovative methodologies for crafting highly efficient neural network architectures, achieving significant reductions in model size—by orders of magnitude—compared to traditional shallow and deep networks, while maintaining or improving accuracy.
+\item Recognised for Excellence in Applied Maths Research; Invited Speaker at UG Colloquium.
+\end{rSubsection}
+
+\begin{rSubsection}{Deep Hedging Models}{2023-2024}{Research}{London, UK}
+    \item Designed and implemented advanced Reinforcement Learning Models for hedging derivatives under Market Frictions, based on previous work of Gonon et. al, seeing up to a 40\% decrease in model size while maintaining accuracy compared to traditional models.
+    \item Created models to approximate the super-hedging price and strategy up to maturity of a portfolio of derivatives.
+\end{rSubsection}
+
+
+\begin{rSubsection}{IC Radio}{2023-2024}{President}{London, UK}
+% Presided over one of the UK's oldest student radio stations, leading massive change and a team of 20 students, running as a not-for-profit business providing entertainment, education and exposure to industry leaders to the entirety of the college community.
+
+    % \item Business Lead, managing £50k+ budget
+    \item Nominated for Best Society and Most Improved (of 428)
+    \item Premiered guests speakers for live in-person talk shows, including The Economist and world-leading academics.
+    \item Organised 10 sell-out music events throughout the year, with cumulative 8K+ attendees, and record ticket sales, selling out in less than 3 mins. at times.
+    % \item Led a team of developers for a full transformation, upgrade and optimisation of a large tech-stack from legacy systems, crafting a bespoke website, applets and APIs to interact with custom studio hardware, reducing dedicated servers by 50\% and FTEs by 3.
+    \item Grew a strong and devoted community, seeing 2x membership and 3x increase in active volunteers, from last year.
+    \item Led a tech transformation, upgrading and optimising a large tech stack from legacy systems. Crafted a bespoke website, applets, and APIs for custom studio hardware. Reduced dedicated servers by 50\% and FTEs by 3.
+    \item Agile delivery approach resulting in a new portal platform going live in record 8 weeks time. Allowing scalable and automated platform that is future proof and supports composable IT architectures.
+\end{rSubsection}
+
+\begin{rSubsection}{Documentary Series}{2020-2021}{Creator}{London, UK}
+\item Centred around visualising the impact of physical geography on geo-politics around the world, created 3D topographical animations, via a self-made rendering engine using open source NASA height data and maps.
+\item Collated hundreds of sources and wrote scripts for 10 episodes focused on different geographies.
+\end{rSubsection}
+
+% \begin{rSubsection}{ShARE - Consulting Mentorship Program}{2021}{President}{London, UK}
+% \item Oversaw leadership programme for university students offering insight and skills for the world of consulting.
+% Managing a team responsible for 30+ members.
+% \item Delegating tasks, presenting work in organised weekly meetings.
+% \item Grew organisation numbers, created a decentralised leadership structure ensuring subgroups worked more efficiently, independently and reliably.
+% \end{rSubsection}
+
+% \begin{rSubsection}{NutriPunch - Health \& Nutrition, Meal Prep Company}{2018}{Research Analyst}{New Delhi, India}
+% \item Supported creation of successful business plan and pitch, to secure funding from VCs.
+% \item Performed secondary market research to identify segmentation and forecast growth.
+% \item Conducted market and consumer analysis using private and public analyst reports.
+% \end{rSubsection}
+
+% \begin{rSubsection}{Tuition Business}{2017-Present}{Founder}{West Yorks./London, UK}
+% \item Created a small business from scratch, teaching groups of up to 40 students for a variety of exams.
+% \end{rSubsection}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%   Technical Experience 
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Projects}
+% \begin{rSubsection}{Strength Journal Mobile App}{June 2017}{}{}
+% \item Published Android app that allows users to log workout stats with minimal hassle
+% \item Applied test-driven development when implementing features to ensure quality of product
+% \end{rSubsection}
+% \begin{rSubsection}{School Newspaper Website}{May 2017}{Contributer}{}
+% \item Constructed unit tests for REST API that increased coverage by 5\%
+% \item Implemented REST API endpoints for the User model 
+% \end{rSubsection}
+% \begin{rSubsection}{C++ Blob Combat Simulation}{May 2017}{}{}
+% \item Developed a simulation where "blobs" evolve to fight using genetic algorithms like proportional and tournament selection
+% \item Applied linear algebra concepts to efficiently implement a Neural Network and collision detection
+% \item Built the simulation independent of real elapsed time enabling "fast forward" feature to significantly reduce training time  
+% \end{rSubsection}
+% \iffalse
+% \begin{rSubsection}{UUP SIAM - Direct Tap Machine Learning}{April 2017 - Present}{}{City One, UP}
+% \item Built a model to visualize the correlation between order quantity and seasonality, using Python pandas and matplotlib
+% \end{rSubsection}
+% \fi
+% \begin{rSubsection}{Design Project - Water Jet Propelled Vehicle}{April 2015 - May 2015}{}{City One, UP}
+% \item Developed MATLAB time marching simulation which optimized water to air ratio and predicted the vehicle speed to within 12\%
+% \item Programmed Arduino micro-controller to control steering and valve servos using RF transmitter/receiver
+% \end{rSubsection}
+% \iffalse
+% \begin{rSubsection}{JavaScript 8 Puzzle Solver}{December 2016}{}{}
+% \item Developed a sliding puzzle solver in pure JavaScript to animate a step by step solution
+% \item Is able to solve 3x3 tile board in less than 1 second using the A* algorithm
+% \end{rSubsection}
+% \fi
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+% \iffalse
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Python (TensorFlow, PyTorch, Scikit-Learn, Pandas, SciPy, NumPy), LaTeX, R, Bash, SQL \\
+% Scikit-Learn, SciPy, NumPy, Pandas
+Web skills & HTML5, CSS, JavaScript (React, Node), Flask, Selenium, Docker \\
+Software & Git, After Effects, Photoshop, Lightroom, Logic Pro X, Final Cut Pro X, Figma  \\
+Natural Languages & Hindi (Native),  Spanish (B1), Punjabi (Conversational)\\
+\end{tabular}
+
+\end{rSection}
+% \fi
+%----------------------------------------------------------------------------------------
+%   INTERESTS
+%----------------------------------------------------------------------------------------
+% \iffalse
+\begin{rSection}{Interests}
+DJ/Music Production\hspace{1cm} Geopolitics \hspace{1cm}Cricket\hspace{1cm}Cycling\hspace{1cm}Film
+\end{rSection}
+% \fi
+%----------------------------------------------------------------------------------------
+
+\end{document}
